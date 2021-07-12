@@ -3,7 +3,7 @@ FROM PortfolioProject..CovidDeaths
 WHERE continent is null
 ORDER BY 3,4
 
---select the data that we are going to be using
+--selecting the columns to view out of all other columns
 SELECT Location, date, total_cases,new_cases,total_deaths, population
 FROM PortfolioProject..CovidDeaths
 WHERE continent is not null
